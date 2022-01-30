@@ -33,5 +33,13 @@ $ npm i --save-dev nodemon
 Com isso, dentro do package.json pode ser adicionado o script:<br>
 "start": "nodemon ./api/index.js" <br> <br>
 Agora pra rodar a api é só digitar:<br>
-npm run start
+npm run start<br>
+O banco a ser instalado será o MySQL
+```bash
+$ npm i mysql2
+```
+E por fim o sequelize
+```bash
+$ npm i sequelize sequelize-cli path
+```
 ##
