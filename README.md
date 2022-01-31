@@ -4,7 +4,7 @@
 <p align="justify">Este projeto tem como função auxiliar na aprendizagem do funcionamento de uma ORM. <br>
 Utiliza o Sequelize para fazer operações em banco de sem usar SQL. Organizado no modelo MVC</p>
 
-### Ferramentas
+### _Ferramentas_
 - SQL (neste projeto foi utilizado o MySQL)
 - Conhecimento de rotas
 - MySQL Workbench
@@ -14,7 +14,7 @@ Utiliza o Sequelize para fazer operações em banco de sem usar SQL. Organizado 
 
 ##
 
-### Passo a passo da preparação do ambiente
+### _Passo a passo da preparação do ambiente_
 Criar pasta orm-sequelize:
 Demtro da pasta criar o projeto usando npm com o comando abaixo
 ```bash
@@ -56,7 +56,7 @@ Essas pastas devem ser movidas pra dentro da pasta api.
 
 Em seguida criamos um arquivo chamado .sequelizerc para estruturar a aplicação.
 ##
-### Conectando com o banco
+### _Conectando com o banco_
 Entrar no terminal do MySQL com 
 ```bash
 $ mysql -u root -p
