@@ -42,4 +42,25 @@ E por fim o sequelize
 ```bash
 $ npm i sequelize sequelize-cli path
 ```
+Para criar arquivos de base do Sequelize CLI usamos o 
+```bash
+$ npx sequelize-cli init
+```
+Ele criará quatro pastas:
+- config
+- models
+- migrations
+- seeders
+
+Essas pastas devem ser movidas pra dentro da pasta api.
+
+Em seguida criamos um arquivo chamado .sequelizerc para estruturar a aplicação.
 ##
+### Conectando com o banco
+Entrar no terminal do MySQL com 
+```bash
+$ mysql -u root -p
+```
+Dentro do terminar digitar 'show databases;' para visualizar os bancos disponíveis.
+
+criaar o banco 'create database escola_ingles;'
