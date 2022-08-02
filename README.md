@@ -63,4 +63,4 @@ $ mysql -u root -p
 ```
 Dentro do terminar digitar 'show databases;' para visualizar os bancos disponíveis.
 
-criaar o banco 'create database escola_ingles;'
+criar o banco 'create database escola_ingles;'
